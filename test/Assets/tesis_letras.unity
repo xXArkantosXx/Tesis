@@ -632,10 +632,10 @@ RectTransform:
   m_Father: {fileID: 471786699}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.29375002, y: 0.53812504}
-  m_AnchorMax: {x: 0.66725004, y: 0.8072813}
-  m_AnchoredPosition: {x: -8, y: 30.959473}
-  m_SizeDelta: {x: -53, y: -186}
+  m_AnchorMin: {x: 0.275, y: 0.52953124}
+  m_AnchorMax: {x: 0.66725004, y: 0.8556875}
+  m_AnchoredPosition: {x: -0.5, y: 5.4594727}
+  m_SizeDelta: {x: -68, y: -259}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &699505422
 MonoBehaviour:
@@ -684,7 +684,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: tesis_letras
+          m_StringArgument: tesis_vocales_a
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,

@@ -11,3 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/tesis_dashboard.unity
     guid: 972fff9d668d8a34ebe83acb81f117df
+  - enabled: 1
+    path: Assets/tesis_letras.unity
+    guid: 4e82eb19e3b053c4f9a6e6586e56e608
+  - enabled: 1
+    path: Assets/tesis_vocales_a.unity
+    guid: fe1bebb92dfa3e249ba52954ef580857
+  - enabled: 1
+    path: Assets/tesis_numeros.unity
+    guid: 3c93501b5de3a6942b58293b9d62b04d
