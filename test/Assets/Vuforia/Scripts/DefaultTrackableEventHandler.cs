@@ -1,4 +1,8 @@
 using UnityEngine;
+using System.Collections;
+using System.IO;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 namespace Vuforia
 {
@@ -10,6 +14,9 @@ namespace Vuforia
 	{
 		#region PRIVATE_MEMBER_VARIABLES
 
+		public GameObject nextbtn;
+		public GameObject backbtn;
+		public GameObject soundbtn;
 		private TrackableBehaviour mTrackableBehaviour;
 
 		#endregion // PRIVATE_MEMBER_VARIABLES
@@ -18,6 +25,13 @@ namespace Vuforia
 
 		void Start()
 		{
+			GameObject gameobjectArray = GameObject.FindGameObjectWithTag ("btnNext");
+			nextbtn = gameobjectArray;
+			GameObject gamenext = GameObject.FindGameObjectWithTag ("btnBack");
+			backbtn = gamenext;
+			GameObject gamesound = GameObject.FindGameObjectWithTag ("btnSound");
+			soundbtn = gamesound;
+
 			mTrackableBehaviour = GetComponent<TrackableBehaviour>();
 			if (mTrackableBehaviour)
 			{
@@ -60,7 +74,9 @@ namespace Vuforia
 		{
 			Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
 			Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
-
+			nextbtn.SetActive (true);
+			backbtn.SetActive (true);
+			soundbtn.SetActive (true);
 			// Enable rendering:
 			foreach (Renderer component in rendererComponents)
 			{
@@ -72,7 +88,7 @@ namespace Vuforia
 			{
 				component.enabled = true;
 			}
-
+	
 			Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
 		}
 
@@ -82,16 +98,31 @@ namespace Vuforia
 			Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
 			Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
 
+			GameObject gameobjectArray = GameObject.FindGameObjectWithTag ("btnNext");
+			if (gameobjectArray != null) {
+				gameobjectArray.SetActive (false);
+			}
+			gameobjectArray = GameObject.FindGameObjectWithTag ("btnBack");
+			if (gameobjectArray != null) {
+				gameobjectArray.SetActive (false);
+			}
+			gameobjectArray = GameObject.FindGameObjectWithTag ("btnSound");
+			if (gameobjectArray != null) {
+				gameobjectArray.SetActive (false);
+			}
 			// Disable rendering:
 			foreach (Renderer component in rendererComponents)
 			{
 				component.enabled = false;
+
+				Debug.Log("ES: "+ component.name);
 			}
 
 			// Disable colliders:
 			foreach (Collider component in colliderComponents)
 			{
 				component.enabled = false;
+				Debug.Log("ES: "+ component.name);
 			}
 
 			Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
