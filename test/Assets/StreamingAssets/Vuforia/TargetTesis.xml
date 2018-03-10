@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="9" size="500.000000 729.927002" />
+    <ImageTarget name="8" size="500.000000 709.219849" />
+    <ImageTarget name="7" size="500.000000 674.157288" />
+    <ImageTarget name="6" size="500.000000 729.927002" />
+    <ImageTarget name="5" size="500.000000 678.733032" />
+    <ImageTarget name="4" size="500.000000 683.371277" />
+    <ImageTarget name="3" size="500.000000 719.424438" />
+    <ImageTarget name="2" size="500.000000 704.225342" />
+    <ImageTarget name="1" size="500.000000 993.377502" />
+    <ImageTarget name="0" size="500.000000 729.927002" />
+    <ImageTarget name="TargetZ" size="500.000000 500.769226" />
+    <ImageTarget name="TargetY" size="500.000000 500.769226" />
+    <ImageTarget name="TargetX" size="500.000000 500.769226" />
+    <ImageTarget name="TargetW" size="500.000000 500.769226" />
+    <ImageTarget name="TargetV" size="500.000000 500.769226" />
+    <ImageTarget name="TargetU" size="500.000000 500.769226" />
+    <ImageTarget name="TargetT" size="500.000000 500.769226" />
+    <ImageTarget name="TargetS" size="500.000000 500.769226" />
+    <ImageTarget name="TargetQ" size="500.000000 500.769226" />
+    <ImageTarget name="TargetP" size="500.000000 500.769226" />
+    <ImageTarget name="TargetO" size="500.000000 500.769226" />
+    <ImageTarget name="TargetR" size="500.000000 500.769226" />
+    <ImageTarget name="TargetN" size="500.000000 500.769226" />
+    <ImageTarget name="TargetM" size="500.000000 500.769226" />
+    <ImageTarget name="TargetL" size="500.000000 500.769226" />
+    <ImageTarget name="TargetK" size="500.000000 500.769226" />
+    <ImageTarget name="TargetI" size="500.000000 500.769226" />
+    <ImageTarget name="TargetH" size="500.000000 500.769226" />
+    <ImageTarget name="TargetG" size="500.000000 500.769226" />
+    <ImageTarget name="TargetF" size="500.000000 500.769226" />
+    <ImageTarget name="TargetE" size="500.000000 500.769226" />
+    <ImageTarget name="TargetD" size="500.000000 500.769226" />
+    <ImageTarget name="TargetC" size="500.000000 500.769226" />
+    <ImageTarget name="TargetB" size="500.000000 500.769226" />
+    <ImageTarget name="TargetA" size="500.000000 500.769226" />
+    <ImageTarget name="iguanaMarca" size="200.000000 200.000000" />
+  </Tracking>
+</QCARConfig>
