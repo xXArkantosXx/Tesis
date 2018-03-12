@@ -5,6 +5,8 @@ Assets/tesis_dashboard.unity
 Assets/tesis_letras.unity
 Assets/tesis_vocales_a.unity
 Assets/tesis_numeros.unity
+Assets/tesis_vocales_b.unity
+Assets/tesis_vocales_c.unity
 SceneListEnd?
 268ef825502a475f763a8f3739ab652c Assembly-CSharp.dll:.VRIntegrationHelper
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset

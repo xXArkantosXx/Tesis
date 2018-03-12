@@ -20,3 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/tesis_numeros.unity
     guid: 3c93501b5de3a6942b58293b9d62b04d
+  - enabled: 1
+    path: Assets/tesis_vocales_b.unity
+    guid: eeb07bf402221464d8db74024b1e2b9e
+  - enabled: 1
+    path: Assets/tesis_vocales_c.unity
+    guid: 86cb031f61600264bafe9c1faff8f554

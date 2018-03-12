@@ -9,6 +9,9 @@ TagManager:
   - btnNext
   - btnBack
   - btnSound
+  - btnNext2
+  - btnBack2
+  - btnSound2
   layers:
   - Default
   - TransparentFX
