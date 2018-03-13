@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/tesis_vocales_b.unity
+- path: Assets/tesis_vocales_z.unity
   isLoaded: 1
   isActive: 1
